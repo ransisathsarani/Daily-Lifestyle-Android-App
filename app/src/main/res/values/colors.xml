@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#824c72</color>
+    <color name="colorPrimaryDark">#824c72</color>
+    <color name="lightgray">#ededed</color>
+    <color name="purplrcircle">#b784a7</color>
+    <color name="backgroundcolor">#fcfcfc</color>
+    <color name="colorAccent">#824c72</color>
+    <color name="title_color">#ffffff</color>
+</resources>

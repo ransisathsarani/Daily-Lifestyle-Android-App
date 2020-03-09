@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/workspace3"
+    tools:context=".UserProfile">
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/pass"
+        android:layout_alignStart="@+id/pass"
+        android:layout_marginBottom="61dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:layout_alignLeft="@+id/pass" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/vieww"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="54dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/vieww"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="113dp"
+        android:layout_toStartOf="@+id/delete"
+        android:text="View Info"
+        android:layout_toLeftOf="@+id/delete" />
+
+    <Button
+        android:id="@+id/updd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/vieww"
+        android:layout_alignBottom="@+id/vieww"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="60dp"
+        android:text="Update Info"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="60dp" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/updd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:text="delete"
+        android:textColor="@android:color/holo_red_dark" />
+
+
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/email"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/email"
+        android:layout_marginTop="142dp"
+        android:text="ID" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/delete"
+        android:layout_marginEnd="35dp"
+        android:text="LOGOUT"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="35dp" />
+
+</RelativeLayout>
